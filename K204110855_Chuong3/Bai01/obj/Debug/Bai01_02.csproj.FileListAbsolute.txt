@@ -1,0 +1,15 @@
+G:\My Drive\K20411\Học Kỳ 2\Kỹ Thuật Lập Trình\VisualStudio\Bài Tập\K204110855_Chuong3\Bai01\bin\Debug\Bai01.exe.config
+G:\My Drive\K20411\Học Kỳ 2\Kỹ Thuật Lập Trình\VisualStudio\Bài Tập\K204110855_Chuong3\Bai01\bin\Debug\Bai01.exe
+G:\My Drive\K20411\Học Kỳ 2\Kỹ Thuật Lập Trình\VisualStudio\Bài Tập\K204110855_Chuong3\Bai01\bin\Debug\Bai01.pdb
+G:\My Drive\K20411\Học Kỳ 2\Kỹ Thuật Lập Trình\VisualStudio\Bài Tập\K204110855_Chuong3\Bai01\obj\Debug\MainWindow.g.cs
+G:\My Drive\K20411\Học Kỳ 2\Kỹ Thuật Lập Trình\VisualStudio\Bài Tập\K204110855_Chuong3\Bai01\obj\Debug\App.g.cs
+G:\My Drive\K20411\Học Kỳ 2\Kỹ Thuật Lập Trình\VisualStudio\Bài Tập\K204110855_Chuong3\Bai01\obj\Debug\Bai01_MarkupCompile.cache
+G:\My Drive\K20411\Học Kỳ 2\Kỹ Thuật Lập Trình\VisualStudio\Bài Tập\K204110855_Chuong3\Bai01\obj\Debug\Bai01_MarkupCompile.lref
+G:\My Drive\K20411\Học Kỳ 2\Kỹ Thuật Lập Trình\VisualStudio\Bài Tập\K204110855_Chuong3\Bai01\obj\Debug\MainWindow.baml
+G:\My Drive\K20411\Học Kỳ 2\Kỹ Thuật Lập Trình\VisualStudio\Bài Tập\K204110855_Chuong3\Bai01\obj\Debug\Bai01.g.resources
+G:\My Drive\K20411\Học Kỳ 2\Kỹ Thuật Lập Trình\VisualStudio\Bài Tập\K204110855_Chuong3\Bai01\obj\Debug\Bai01.Properties.Resources.resources
+G:\My Drive\K20411\Học Kỳ 2\Kỹ Thuật Lập Trình\VisualStudio\Bài Tập\K204110855_Chuong3\Bai01\obj\Debug\Bai01_02.csproj.GenerateResource.cache
+G:\My Drive\K20411\Học Kỳ 2\Kỹ Thuật Lập Trình\VisualStudio\Bài Tập\K204110855_Chuong3\Bai01\obj\Debug\Bai01_02.csproj.CoreCompileInputs.cache
+G:\My Drive\K20411\Học Kỳ 2\Kỹ Thuật Lập Trình\VisualStudio\Bài Tập\K204110855_Chuong3\Bai01\obj\Debug\Bai01.exe
+G:\My Drive\K20411\Học Kỳ 2\Kỹ Thuật Lập Trình\VisualStudio\Bài Tập\K204110855_Chuong3\Bai01\obj\Debug\Bai01.pdb
+G:\My Drive\K20411\Học Kỳ 2\Kỹ Thuật Lập Trình\VisualStudio\Bài Tập\K204110855_Chuong3\Bai01\obj\Debug\Bai01_02.csprojAssemblyReference.cache
