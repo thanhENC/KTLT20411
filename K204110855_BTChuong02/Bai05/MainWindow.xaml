@@ -1,0 +1,77 @@
+﻿<Window x:Class="Bai05.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bai05"
+        mc:Ignorable="d"
+        Title="Quản Lý Bán Hàng" Height="400" Width="600"
+        FontSize="14" WindowStartupLocation="CenterScreen"        >
+    <StackPanel Margin="20,10">
+        <GroupBox Header="Chi Tiết Đơn Hàng">
+            <Grid Name="grdChiTietDonHang" Margin="15,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                
+                <Label>Tên Hàng:</Label>
+                <TextBox Grid.Column="1" Margin="0,2" Name="txtTenHang"></TextBox>
+                <Label Grid.Row="1">Số Lượng:</Label>
+                <TextBox Grid.Column="1" Grid.Row="1" Margin="0,2" Name="txtSoLuong"></TextBox>
+                <Label Grid.Row="2">Đơn Giá:</Label>
+                <TextBox Grid.Column="1" Grid.Row="2" Margin="0,2" Name="txtDonGia"></TextBox>
+                <Label Grid.Row="3">Thành Tiền:</Label>
+                <TextBox Grid.Column="1" Grid.Row="3" Margin="0,2" Name="txtThanhTien" IsEnabled="False" Background="LightGray"></TextBox>
+            </Grid>
+        </GroupBox>
+            
+        <GroupBox Margin="0,15">
+            <Grid  Margin="10,10,10,5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Name="btnTinh" Margin="20,0,0,0" Click="BtnTinh_Click">
+                    <TextBlock Margin="5,0">Tính</TextBlock>
+                </Button>
+                <Button Grid.Column="1" Margin="20,0,0,0" Name="btnTiep" Click="BtnTiep_Click">
+                    <TextBlock Margin="5,0">Tiếp</TextBlock>
+                </Button>
+                <Button Grid.Column="2" Margin="20,0,0,0" Name="btnThongKe" Click="BtnThongKe_Click">
+                    <TextBlock Margin="5,0">Thống Kê</TextBlock>
+                </Button>
+                <Button Grid.Column="3" Margin="20,0" Name="btnKetThuc" Click="BtnKetThuc_Click">
+                    <TextBlock Margin="5,0">Kết Thúc</TextBlock>
+                </Button>
+            </Grid>
+        </GroupBox>
+
+        <GroupBox Header="Thống Kê">
+            <Grid Name="grdThongKe" Margin="15,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Label>Đếm Số Hóa Đơn Đã Bán:</Label>
+                <TextBox Grid.Column="1" Margin="0,2" Name="txtTongHoaDon" IsEnabled="False" Background="LightGray" Foreground="Red"></TextBox>
+                <Label Grid.Row="1">Tổng Doanh Thu:</Label>
+                <TextBox Grid.Column="1" Grid.Row="1" Margin="0,2" Name="txtTongDoanhThu" IsEnabled="False" Background="LightGray" Foreground="Red"></TextBox>
+            </Grid>
+        </GroupBox>
+    </StackPanel>
+</Window>
